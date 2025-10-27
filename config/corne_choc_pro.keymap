@@ -48,7 +48,7 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-&trans  &kp DA_EXCLAMATION  &kp DA_PIPE       &kp DA_LEFT_BRACE        &kp DA_RIGHT_BRACE        &kp DA_QUESTION      &none  &none  &kp DA_AMPERSAND  &kp DA_GRAVE  &kp DA_TILDE     &kp DA_DOUBLE_QUOTES  &kp DA_SINGLE_QUOTE  &none
+&trans  &kp DA_EXCLAMATION  &kp DA_PIPE       &kp DA_LEFT_BRACE        &kp DA_RIGHT_BRACE        &kp DA_QUESTION      &none  &none  &kp DA_AMPERSAND  &kp DA_ACUTE  &kp DA_TILDE     &kp DA_DOUBLE_QUOTES  &kp DA_SINGLE_QUOTE  &none
 &trans  &kp DA_AT           &kp DA_CARET      &kp DA_LEFT_PARENTHESIS  &kp DA_RIGHT_PARENTHESIS  &kp DA_EQUAL         &none  &none  &kp DA_PERCENT    &kp DA_HASH   &kp DA_ASTERISK  &kp DA_DOLLAR         &none                &none
 &trans  &trans              &kp DA_LESS_THAN  &kp DA_LEFT_BRACKET      &kp DA_RIGHT_BRACKET      &kp DA_GREATER_THAN                &kp DA_PLUS       &kp DA_MINUS  &none            &none                 &none                &none
                                               &none                    &trans                    &none                              &none             &trans        &none
