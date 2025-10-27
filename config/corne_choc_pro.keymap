@@ -48,10 +48,10 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL  &kp PIPE       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION      &none  &none  &kp AMPS     &kp GRAVE  &kp TILDE  &kp SINGLE_QUOTE  &none  &none
-&trans  &kp AT    &kp CARET      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &none  &none  &kp PERCENT  &kp HASH   &kp STAR   &kp DOLLAR        &none  &none
-&trans  &trans    &kp LESS_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GREATER_THAN                &kp PLUS     &kp MINUS  &none      &none             &none  &none
-                                 &none                 &trans                 &none                           &none        &trans     &none
+&trans  &kp DA_EXCLAMATION  &kp DA_PIPE       &kp DA_LEFT_BRACE        &kp DA_RIGHT_BRACE        &kp DA_QUESTION      &none  &none  &kp DA_AMPERSAND  &kp DA_GRAVE  &kp DA_TILDE     &kp DA_SINGLE_QUOTE  &none  &none
+&trans  &kp DA_AT           &kp DA_CARET      &kp DA_LEFT_PARENTHESIS  &kp DA_RIGHT_PARENTHESIS  &kp DA_EQUAL         &none  &none  &kp DA_PERCENT    &kp DA_HASH   &kp DA_ASTERISK  &kp DA_DOLLAR        &none  &none
+&trans  &trans              &kp DA_LESS_THAN  &kp DA_LEFT_BRACKET      &kp DA_RIGHT_BRACKET      &kp DA_GREATER_THAN                &kp DA_PLUS       &kp DA_MINUS  &none            &none                &none  &none
+                                              &none                    &trans                    &none                              &none             &trans        &none
             >;
         };
 
@@ -85,10 +85,10 @@
         utility {
             display-name = "EXTRA 2";
             bindings = <
-&trans  &trans    &none           &kp UP_ARROW    &none            &trans   &trans  &trans  &kp COLON  &kp SLASH   &kp BACKSLASH  &kp SINGLE_QUOTE  &trans         &trans
-&trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans  &trans  &kp SEMI   &kp ENTER   &kp TAB        &kp DELETE        &kp BACKSPACE  &trans
-&trans  &trans    &trans          &trans          &trans           &trans                   &kp COMMA  &kp PERIOD  &trans         &trans            &trans         &trans
-                                  &trans          &trans           &trans                   &trans     &trans      &trans
+&trans  &trans    &none           &kp UP_ARROW    &none            &trans   &trans  &trans  &kp DA_COLON      &kp DA_SLASH   &kp DA_BACKSLASH  &kp DA_SINGLE_QUOTE  &trans         &trans
+&trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans  &trans  &kp DA_SEMICOLON  &kp ENTER      &kp TAB           &kp DELETE           &kp BACKSPACE  &trans
+&trans  &trans    &trans          &trans          &trans           &trans                   &kp DA_COMMA      &kp DA_PERIOD  &trans            &trans               &trans         &trans
+                                  &trans          &trans           &trans                   &trans            &trans         &trans
             >;
         };
 
