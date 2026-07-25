@@ -88,10 +88,10 @@
         layer4 {
             display-name = "EXTRA 1";
             bindings = <
-&trans  &trans  &kp DA_DOUBLE_QUOTES  &kp UP    &trans     &trans  &trans  &trans  &kp DA_COLON      &kp DA_SLASH   &kp DA_BACKSLASH  &kp DA_SINGLE_QUOTE  &trans         &trans
-&trans  &trans  &kp LEFT              &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &kp DA_SEMICOLON  &kp ENTER      &kp TAB           &kp DELETE           &kp BACKSPACE  &trans
-&trans  &trans  &trans                &trans    &trans     &trans                  &kp DA_COMMA      &kp DA_PERIOD  &trans            &trans               &trans         &trans
-                                      &trans    &trans     &trans                  &trans            &trans         &trans
+&trans  &trans    &kp DA_DOUBLE_QUOTES  &kp UP    &trans     &trans   &trans  &trans  &kp DA_COLON      &kp DA_SLASH   &kp DA_BACKSLASH  &kp DA_SINGLE_QUOTE  &trans         &trans
+&trans  &kp HOME  &kp LEFT              &kp DOWN  &kp RIGHT  &kp END  &trans  &trans  &kp DA_SEMICOLON  &kp ENTER      &kp TAB           &kp DELETE           &kp BACKSPACE  &trans
+&trans  &trans    &trans                &trans    &trans     &trans                   &kp DA_COMMA      &kp DA_PERIOD  &trans            &trans               &trans         &trans
+                                        &trans    &trans     &trans                   &trans            &trans         &trans
             >;
         };
 
